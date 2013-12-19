@@ -61,7 +61,7 @@
       
       <div id="one">
        <div class="grow pic">
-         <img src="http://lorempixel.com/400/400/people/9" alt="portrait">
+           <img src="http://lorempixel.com/300/300/nature/2" alt="sea">
        </div>
       </div>
       
@@ -100,9 +100,15 @@
         </li>
        
         <li>
-           <h3>Inquiry</h3>
-           <p>We'd love to hear about your project</p>
-           <p>Please get in touch with us here.</p>
+           <h3>Time</h3>
+           <p>
+             It is now <%= Time.now %>
+           </p>
+
+            <p>
+             Time to say
+             <%= link_to "Goodbye", say_goodbye_path %>!
+            </p>
          </li>
       
       </ul>
@@ -112,15 +118,15 @@
       <ul>
         
         <li>
-         <a href="link">Dribble</a>
+         <a href="http://dribbble.com/">Dribbble</a>
         </li>
         
         <li>
-         <a href="link">Facebook</a>
+         <a href="https://www.facebook.com/">Facebook</a>
         </li>
         
         <li>
-         <a href="link">Twitter</a>
+         <a href="https://twitter.com/">Twitter</a>
         </li>
         
       </ul>
@@ -131,29 +137,7 @@
     </div>
     
   </footer>
- 
- 
- 
- 
-  <div id="rails-work">
-   <p>
-    It is now <%= Time.now %>
-   </p>
-
-   <p>
-    Time to say
-    <%= link_to "Goodbye", say_goodbye_path %>!
-   </p>
-  </div>
- 
- 
- 
- 
- 
- 
- 
- 
- 
+  
    
  </body>
  

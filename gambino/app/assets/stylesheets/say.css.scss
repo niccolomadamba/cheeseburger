@@ -40,8 +40,8 @@ body {
 }
  
 .grow img:hover {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 385px;
 }
 
 /*SHRINK*/
@@ -107,6 +107,11 @@ header div#nav {
 	float: right;
 	margin-top: 67px;
 	margin-right: 100px;
+}
+
+header div#nav a:hover {
+	color: #777;
+	background-color: white;
 }
 
 header div#nav ul li  {
@@ -193,6 +198,7 @@ div#one {
 footer {
 	clear: both;
 	margin-top: 25px;
+	width: 100%;
 	
 }
 
@@ -241,6 +247,11 @@ footer div#bottom ul li {
 footer div#bottom ul li a {
 	text-decoration: none;
 	color: black;
+}
+
+footer div#bottom ul li a:hover {
+	color: #777;
+	
 }
 
 footer div#bottom p.copyright {
