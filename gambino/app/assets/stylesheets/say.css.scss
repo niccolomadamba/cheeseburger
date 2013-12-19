@@ -65,17 +65,14 @@ body {
 ///////////////////////
 
 div#rails-work {
-	margin-top: 750px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	height: 100%;
+
 }
 
 
 ///////////////////////
-
-
-
-
-
-
 
 body {
 	background: white;
@@ -195,5 +192,60 @@ div#one {
 
 footer {
 	clear: both;
-	margin-top: 72px;
+	margin-top: 25px;
+	
 }
+
+footer div#links-container {
+	width: 100%;
+	height: 150px;
+}
+
+footer div#links-container ul {
+	margin-top: 65px;
+}
+
+footer div#links-container ul h3 {
+	font-weight: 25em;
+	margin-bottom: 10px;
+}
+
+footer div#links-container ul li p {
+	font-weight: 1px;
+}
+
+footer div#links-container ul li {
+	display: inline-block;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: left;
+	line-height: 30px;
+}
+
+footer div#bottom {
+	margin-top: 0px;
+	background: #eeeeee;
+	height: 84px;
+}
+
+footer div#bottom ul{
+	float: left;
+}
+
+footer div#bottom ul li {
+	display: inline-block;
+	margin-left: 25px;
+	margin-top: 30px;
+}
+
+footer div#bottom ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+footer div#bottom p.copyright {
+	float: right;
+	margin-top: 30px;
+	margin-right: 55px;
+}
+
